@@ -8,3 +8,4 @@ Here are some of my favorite emoticons: (WIP)
 •_• - cold dead stare  
 B) - guy with sunglasses
 :D - Joyous!  
+>:) - Evil smile......
