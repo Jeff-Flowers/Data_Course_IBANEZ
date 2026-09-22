@@ -1,0 +1,19 @@
+# Jeffrey Ibanez, late because I'm evil
+# 4
+csv_files <- list.files(path = "Data", pattern = "csv$")
+# 5
+length(csv_files)
+# 6
+df <- read.csv("Data/wingspan_vs_mass.csv")
+# 7
+head(df, n = 5)
+# 8
+list.files(path = "Data", pattern = "^b", recursive = TRUE)
+# 9
+for (i in list.files(path = "Data", pattern = "^b", recursive = TRUE, full.names = TRUE)){
+  print(readLines(i, n = 1))
+}
+# 10
+for (i in list.files(path = "Data", pattern = "csv$", recursive = TRUE, full.names = TRUE)){
+  print(readLines(i, n = 1))
+}

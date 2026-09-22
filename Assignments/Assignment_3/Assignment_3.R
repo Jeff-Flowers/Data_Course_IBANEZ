@@ -20,7 +20,7 @@
 
 # Vectors are 1-dimensional series of values in some order
 1:10 # ':' only works for integers
-letters # built-in pre-made vector of a - z
+?letters # built-in pre-made vector of a - z
 
 
 
@@ -79,6 +79,7 @@ dat[1:3,5]
 vector2[1]
 letters[1:7]
 letters[c(1,3,5,7)]
+rev(letters)
 
 
 # Plotting ####
