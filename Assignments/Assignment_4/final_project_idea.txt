@@ -1,0 +1,14 @@
+Final Project Idea - Jeffrey Ibanez
+
+Basically I want to do a project about opsins, the photoreceptive proteins that enable vision.
+More specifically I intend to analyze the genomic and proteomic data of opsins across a variety
+of species and find correlations between the differences in sequence/structure and the environment
+the organism is suited for. Maybe I'll look into novel opsin design with alphafold. Maybe.
+I expect the differences I find will be dependant on the uses an organism has for vision.
+Sea creatures will have opsins optimised for the absorption spectrum of water, predators will
+have opsins optimised for seeing their prey, things like that.
+
+I'll certainly be using genetic data that encodes opsins, and comparing them, which I will
+source from NCBI. I will be doing BLASTS of both the dna sequences and the proteins.
+The data will look like text listing the genetic sequences, possibly with confidence intervals
+attatched. Protein files will be PDBs, and look like text that must be converted into a 3D model.
