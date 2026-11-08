@@ -9,16 +9,11 @@ library(magick)
 install.packages("ggimage")
 library(ggimage)
 
-str(mtcars)
-
 showtext_auto()
 font_add(family = "Covid", regular = "./zai_COVID-19VaCcine.ttf")
 
-Goatcolors <- c("red","green","magenta","yellow","blue")
-
 mtcars2 <- mtcars
 mtcars2$model <- rownames(mtcars2)
-mtcars2
 
 ggplot(mtcars2, aes(x = mpg, y = hp, label = model)) +
   geom_rect_pattern(inherit.aes = FALSE, data = data.frame(1), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, pattern = "image", pattern_type = "expand", pattern_filename = "./yoda.jpg") +
