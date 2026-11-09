@@ -1,3 +1,5 @@
+# OK i started this one but the html says I should be doing something with the flight data instead.
+
 # Assignment 7 messy code
 # Change this to "tidy" format using dplyr verbs
 
@@ -14,10 +16,13 @@ library(tidyverse)
 ##########################
 
 # load data (wide format)
-utah = read.csv("./Utah_Religions_by_County.csv")
+# utah = read.csv("./Utah_Religions_by_County.csv")
+utah <- read_csv("./UtahReligions_by_County.csv")
 
 # subset to only counties with buddhists observed
-buddhist = utah[utah$Buddhism.Mahayana > 0,]
+# buddhist = utah[utah$Buddhism.Mahayana > 0,]
+buddhist <- utah |>
+  filter()
 
 # order rows by population (descending)
 buddhist = buddhist[order(buddhist$Pop_2010, decreasing = TRUE),]
